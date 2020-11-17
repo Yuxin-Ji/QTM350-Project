@@ -15,7 +15,7 @@ Our data are collected from our friends and ourselves.
 
 ## Results
 
-## Get Started
+## Workflow
 
 ### Create S3 bucket
 
