@@ -15,4 +15,18 @@ Our data are collected from our friends and ourselves.
 
 ## Results
 
-## Get Started - Guidance for the code
+## Get Started
+
+### Set up an IAM role
+
+First of all, we create an s3 bucket on AWS. We need to make sure that we make the bucket public. 
+(insert picture)
+
+Secondly, we push all of our images into the bucket. Remeber, the images should also be made public. As you can see, we have images of the twin sisters in the bucket, you can put images that you want to work with in your s3. 
+(insert picture)
+
+Then we set up the IAM role. After clicking on the name of your Sagemaker notebook, you will be able to set the IAM role as ARN. 
+![AWS IAM role](iam.jpeg)
+
+We need to go to the "permissions" tab and make sure that we have full access to Amazon Rekognition. 
+(insert picture) 
