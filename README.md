@@ -1,1 +1,4 @@
-# QTM350-Project
+# Amazon Rekognition Face Matching
+
+
+
