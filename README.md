@@ -11,9 +11,12 @@ We first upload the source image and target image to an Amazon Simple Storage Se
 
 ## Data Collection
 
-Our data are collected from our friends and ourselves. 
+Our data are collected from our friends and ourselves. We gathered 30+ groups of data each containing a set of four photos of the same person. Each group of data contains:
+- a regular photo with the entire face exposed :smiley:
+- a photo with the person wearing mask 😷
+- a photo with the person wearing glasses :nerd_face:
+- a photo with the person doing funny face :stuck_out_tongue_winking_eye:
 
-## Results
 
 ## Workflow
 
