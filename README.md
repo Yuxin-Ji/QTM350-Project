@@ -11,7 +11,7 @@ We first upload the source image and target image to an Amazon Simple Storage Se
 
 ## Data Collection
 
-Our data are collected from our friends and ourselves. We gathered 30+ groups of data each containing a set of four photos of the same person. Each group of data contains:
+We collect the images from our friends and families and found pictures of celebrities online. We gather the image resources of twin sisters, as well as those featuring appearance changes(glass/ makeup/ funny faces) via social connections. For the later, we gathered 30+ groups of data each containing a set of four photos of the same person. Each group of data contains:
 - a regular photo with the entire face exposed :smiley:
 - a photo with the person wearing mask 😷
 - a photo with the person wearing glasses :nerd_face:
