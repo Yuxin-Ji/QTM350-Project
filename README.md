@@ -13,3 +13,5 @@ This demo solution demonstrates how to test the accuracy of Amazon Rekognition. 
 ## Results
 
 ## Get Started - Guidance for the code
+Set up an IAM role
+
