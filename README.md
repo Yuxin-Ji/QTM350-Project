@@ -71,6 +71,7 @@ SimilarityThershold specifies the minimum level of confidence in the match that 
 
 We can find guidance for additional parameters and requirements from [Amazon Rekognition Developer Guide for CompareFaces.](https://docs.aws.amazon.com/rekognition/latest/dg/API_CompareFaces.html)
 
+In the following example, we used the photo of one of the twins as the source image to compare with a photo with both the twins.
 
 ```python
 response=client.compare_faces(SimilarityThreshold=80,
