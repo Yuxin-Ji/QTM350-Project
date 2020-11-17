@@ -1,5 +1,5 @@
 # Amazon Rekognition Extreme Cases Testing
-This project demonstrates how to test the accuracy of Amazon Rekognition under extreme cases. The two main study focuses are: 1) identical twins and 2) facial variations. In the identical twins study, we tested if Amazon Rekognition recognize the twin sister with similar confidence scores as her twin. In the facial variations study, we tested if Amazon Rekognition recognize individuals with similar confidence scores when they have minor variations on their faces. 
+This project demonstrates how to test the accuracy of [Amazon Rekognition](https://docs.aws.amazon.com/rekognition/index.html) under extreme cases. The two main study focuses are: 1) identical twins and 2) facial variations. In the identical twins study, we tested if Amazon Rekognition recognize the twin sister with similar confidence scores as her twin. In the facial variations study, we tested if Amazon Rekognition recognize individuals with similar confidence scores when they have minor variations on their faces. 
 
 ## Architecture Overview
 
@@ -22,7 +22,7 @@ Our data are collected from our friends and ourselves. We gathered 30+ groups of
 
 ### Create S3 bucket
 
-First of all, we create an s3 bucket on AWS. We need to make sure that we make the bucket public. 
+First of all, we create an [S3 bucket]((https://docs.aws.amazon.com/AmazonS3/latest/dev/Welcome.html) on AWS. We need to make sure that we make the bucket public. 
 
 ![Create S3 bucket and make public](bucket_access.jpeg)
 
@@ -54,7 +54,7 @@ In any new Sagemaker instance, the AWS CLI (Command Line Interface) comes preins
 
 ### Using the python SDK
 
-We start by importing the package which containts the code for the Python SDK, boto3.
+We start by importing the package which containts the code for the Python SDK, [boto3](https://aws.amazon.com/sdk-for-python/).
 
 ```python
 import boto3
