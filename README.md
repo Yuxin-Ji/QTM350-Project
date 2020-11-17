@@ -38,3 +38,11 @@ Then we set up the IAM role. After clicking on the name of your Sagemaker notebo
 We need to go to the "permissions" tab and make sure that we have full access to Amazon Rekognition. 
 
 ![Full Access to Amazon Rekognition](full_access.jpeg)
+
+### Set up the AWS CLI
+
+In any new Sagemaker instance, the AWS CLI (Command Line Interface) comes preinstalled. So as we are using AWS Sagemaker, we can skip this step, or check that by running the following command.
+
+```python
+!aws rekognition help
+```
