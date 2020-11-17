@@ -57,3 +57,20 @@ We start by importing the package which containts the code for the Python SDK, b
 import boto3
 ```
 
+Then, we create an instance of the client object in the boto3 package for rekognition. It will allow us to communicate and make requests to the Amazon Rekognition service using Python.
+
+```python
+client=boto3.client('rekognition')
+```
+Next, we can access the **compare_faces** method in the rekognition package.
+
+SimilarityThershold specifies the minimum level of confidence in the match that you want returned in the response. SourceImage is the where we detect faces and use it to compare with the TargetImage. If there are multiple faces in the source image, the largest face will be used for comparison. SourceImage and TargetImage take a S3Object with at least two parameters of strings. Bucket is a string of the bucket name and Name is a string of the image filename. The images must be PNG or JPEG files.
+
+We can find guidance for additional parameters and requirements from [Amazon Rekognition Developer Guide for CompareFaces.](https://docs.aws.amazon.com/rekognition/latest/dg/API_CompareFaces.html)
+
+
+```python
+response=client.compare_faces(SimilarityThreshold=80,
+                                  SourceImage={'S3Object':{'Bucket':"350-rekog-project",'Name':"beryl1.jpeg"}},
+                                  TargetImage={'S3Object':{'Bucket':"350-rekog-project",'Name':"together1.jpeg"}})
+```
