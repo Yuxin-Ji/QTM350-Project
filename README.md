@@ -41,8 +41,19 @@ We need to go to the "permissions" tab and make sure that we have full access to
 
 ### Set up the AWS CLI
 
-In any new Sagemaker instance, the AWS CLI (Command Line Interface) comes preinstalled. So as we are using AWS Sagemaker, we can skip this step, or check that by running the following command.
+In any new Sagemaker instance, the AWS CLI (Command Line Interface) comes preinstalled. So as we are using AWS Sagemaker, we can skip this step, or check that by running the following command. We then get access to our S3 bucket.
 
 ```python
 !aws rekognition help
+!aws s3 help
+!aws s3 ls s3://350-rekog-project
 ```
+
+### Using the python SDK
+
+We start by importing the package which containts the code for the Python SDK, boto3.
+
+```python
+import boto3
+```
+
