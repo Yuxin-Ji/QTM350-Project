@@ -21,7 +21,6 @@ We collect the images from our friends and families and found pictures of celebr
 - a photo with the person wearing glasses :nerd_face:
 - a photo with the person doing funny face :stuck_out_tongue_winking_eye:
 
-S3 data: **(Link HERE.)**
 
 ## Workflow
 
@@ -82,3 +81,9 @@ response=client.compare_faces(SimilarityThreshold=80,
                                   SourceImage={'S3Object':{'Bucket':"350-rekog-project",'Name':"beryl1.jpeg"}},
                                   TargetImage={'S3Object':{'Bucket':"350-rekog-project",'Name':"together1.jpeg"}})
 ```
+
+With the compare_faces() function, we are able to conduct further hypothesis testing and find how different characteristics could impact Amazon Rekognition’s capability to identify individuals.
+
+Further testing and analysis are conducted in project_code.ipynb.
+
+Thanks for reading!
