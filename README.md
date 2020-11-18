@@ -2,7 +2,8 @@
 This project demonstrates how to test the accuracy of [Amazon Rekognition](https://docs.aws.amazon.com/rekognition/index.html) under extreme cases. The two main study focuses are: 1) identical twins and 2) facial variations. In the identical twins study, we tested if Amazon Rekognition recognize the twin sister with similar confidence scores as her twin. In the facial variations study, we tested if Amazon Rekognition recognize individuals with similar confidence scores when they have minor variations on their faces. 
 
 ## Blog post
-[blog post](https://350-project-blog.s3.amazonaws.com/blog.html)
+
+Learn more about our project in our [blog post](https://350-project-blog.s3.amazonaws.com/blog.html).
 
 ## Architecture Overview
 
