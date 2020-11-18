@@ -31,7 +31,7 @@ First of all, we create an [S3 bucket](https://docs.aws.amazon.com/AmazonS3/late
 
 ![Create S3 bucket and make public](bucket_access.jpeg)
 
-Secondly, we push all of our images into the bucket. Remeber, the images should also be made public. As you can see, we have images of the twin sisters in the bucket, you can put images that you want to work with in your s3. 
+Secondly, we push all of our images into the bucket and create S3Objects for each. Remeber, the images should also be made public. As you can see, we have images of the twin sisters in the bucket, the images for facial variations are in a separate bucket, you can put images that you want to work on in your S3. 
 
 ![S3 Bucket](S3_bucket.jpeg)
 
