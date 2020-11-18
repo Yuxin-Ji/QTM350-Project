@@ -20,8 +20,9 @@ We collect the images from our friends and families and found pictures of celebr
 - a photo with the person wearing mask 😷
 - a photo with the person wearing glasses :nerd_face:
 - a photo with the person doing funny face :stuck_out_tongue_winking_eye:
+- another regular photo with the entire face exposed :smiley:
 
-The next section will explain how we prepare and transform our data using S3 buckets. For more information about the output data, see results in [blog post](https://350-project-blog.s3.amazonaws.com/blog.html).
+We will further transform these images to a datafram containing information of similarity of the person wearing accessories, or a paire of twins, in the photo, with the person in the regular photo. For more information about the output data, see results in [blog post](https://350-project-blog.s3.amazonaws.com/blog.html).
 
 ## Workflow
 
