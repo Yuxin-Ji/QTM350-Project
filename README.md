@@ -21,6 +21,7 @@ We collect the images from our friends and families and found pictures of celebr
 - a photo with the person wearing glasses :nerd_face:
 - a photo with the person doing funny face :stuck_out_tongue_winking_eye:
 
+The next section will explain how we prepare and transform our data using S3 buckets. For more information about the output data, see results in [blog post](https://350-project-blog.s3.amazonaws.com/blog.html).
 
 ## Workflow
 
